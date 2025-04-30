@@ -21,6 +21,8 @@ public class Libro {
     @Column(nullable = false, length = 50)
     public String titulo;
     @Column(nullable = false)
+    public Double precio;
+    @Column(nullable = false)
     public String editorial;
     @Column(nullable = false)
     public int fechaPublicacion;
